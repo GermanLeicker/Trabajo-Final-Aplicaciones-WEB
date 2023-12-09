@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Merriweather:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: lightyellow;
+	font-family: Roboto, sans-serif;
+}
+
+header {
+	background:rgb(199,197,34);
+}
+
+.imagen1{
+	display: flex;
+}
+
+header h1 {
+	font-family: Kanit, serif;
+	font-size: 3rem;
+}
+
+.imagen1 img {
+	width: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
