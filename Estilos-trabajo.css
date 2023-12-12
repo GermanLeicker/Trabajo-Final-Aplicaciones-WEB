@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Merriweather:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&display=swap');
 
 * {
 	margin: 0;
@@ -13,8 +14,18 @@ body {
 	font-family: Roboto, sans-serif;
 }
 
+.Boton {
+	background: black;
+	font-size: 2rem;
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+}
+
 header {
 	background:rgb(199,197,34);
+	margin-bottom: 2em;
+	width: 100%;
 }
 
 .imagen1{
@@ -34,31 +45,89 @@ h1 {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: azure;
 }
 
+a:hover {
+	color: indianred;
+	text-decoration: underline 2px azure double;
+} 
+a:focus {
+	color: indianred;
+	text-decoration: underline 2px azure double;
+}
+
+li a:focus-visible {
+	outline: none;
+}
+
+ul {
+	padding: 0.5em;
+	font-size: 1.5em;
+	text-align: right;
+	
+}
 ul li {
+	background: black;
 	display: inline-block;
+	margin: 0.5em 0.5em;
+	padding:0 0.5em 0 0.5em;
+}
+
+.intro {
+	font-family: Kalnia, serif;
+	font-size: 1.5em;
 }
 
 h2 {
 	text-align: center;
 	background: black;
 	color: azure;
-	margin-top: 1em;
-	margin-bottom: 1em;
+	margin: auto;
 	padding: 1em;
 	font-size: 2em;
+	border: 5px solid #F8F144;
+	border-right: none;
+	border-left: none;
+	border-top: 5px solid rgb(230,250,100);
+	border-radius: 20px 20px 20px 20px;
+	width: 70%;
+	position: sticky;
 }
 
 h3 {
 	background: indianred;
-	margin: 1rem 10rem 1rem 0;
-	width: 35%;
+	margin: 1em 3rem 1em 1em;
+	padding: 0.5em;
+	width: 30%;
 	font-size: 1.5em;
+	text-decoration: underline 3px double;
+	border-radius: 2px 30px 2px 30px;
 }
 
 p {
 	font-family: Kanit, serif;
 	font-weight: 500;
+	margin: 1em;
+	font-size: 1.5rem;
+}
+
+.imgvac1 {
+	float: right;
+	margin-right: 10em;
+	margin-top: 5em;
+}
+
+.imgvac2{
+	margin-left: 10em;
+}
+
+.control1 {
+	float: right;
+	margin-right: 10em;
+	margin-top: 5em;
+}
+
+.control2 {
+	margin-left: 10em;
 }
