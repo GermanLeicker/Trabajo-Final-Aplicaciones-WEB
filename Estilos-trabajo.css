@@ -16,6 +16,7 @@ body {
 
 .Boton {
 	background: black;
+	color: azure;	
 	font-size: 2rem;
 	position: fixed;
 	bottom: 1em;
@@ -45,16 +46,19 @@ h1 {
 
 a {
 	text-decoration: none;
-	color: azure;
+	color: black;
+	border: 3px solid black;
+	border-radius: 10px 10px 10px 10px;
+	padding: 0.5rem;
 }
 
 a:hover {
+	background: lightyellow;
 	color: indianred;
-	text-decoration: underline 2px azure double;
 } 
 a:focus {
 	color: indianred;
-	text-decoration: underline 2px azure double;
+	text-decoration: underline 2px black solid;
 }
 
 li a:focus-visible {
@@ -68,7 +72,6 @@ ul {
 	
 }
 ul li {
-	background: black;
 	display: inline-block;
 	margin: 0.5em 0.5em;
 	padding:0 0.5em 0 0.5em;
@@ -103,6 +106,7 @@ h3 {
 	font-size: 1.5em;
 	text-decoration: underline 3px double;
 	border-radius: 2px 30px 2px 30px;
+
 }
 
 p {
@@ -110,6 +114,35 @@ p {
 	font-weight: 500;
 	margin: 1em;
 	font-size: 1.5rem;
+	text-align: justify;
+}
+
+.almacenado {
+	padding-left: 10em;
+}
+
+.embandejado {
+	padding-left: 10em;
+}
+
+.incubadoras {
+	padding-left: 10em;
+}
+
+.ovoscopia {
+	padding-left: 10em;
+}
+
+.retiro {
+	padding-left: 10em;
+}
+
+.blancas {
+	padding-left: 10em;
+}
+
+.color {
+	padding-left: 10em;
 }
 
 .imgvac1 {
@@ -130,4 +163,10 @@ p {
 
 .control2 {
 	margin-left: 10em;
+}
+
+footer {
+	background: indianred;
+	font-size: 1em;
+	text-decoration: underline 2px solid;
 }
