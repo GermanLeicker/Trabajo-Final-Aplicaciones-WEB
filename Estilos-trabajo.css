@@ -102,7 +102,7 @@ h3 {
 	background: indianred;
 	margin: 1em 3rem 1em 1em;
 	padding: 0.5em;
-	width: 30%;
+	width: 35%;
 	font-size: 1.5em;
 	text-decoration: underline 3px double;
 	border-radius: 2px 30px 2px 30px;
@@ -146,27 +146,118 @@ p {
 }
 
 .imgvac1 {
-	float: right;
-	margin-right: 10em;
-	margin-top: 5em;
+	padding-left: 10em;
 }
-
-.imgvac2{
-	margin-left: 10em;
-}
-
-.control1 {
-	float: right;
-	margin-right: 10em;
-	margin-top: 5em;
-}
-
-.control2 {
-	margin-left: 10em;
+.recepcion {
+	padding-left: 10em;
 }
 
 footer {
 	background: rgb(199,197,34);
 	font-size: 1em;
 	text-decoration: underline 2px solid;
+}
+
+@media (max-width: 576px) {
+	ul {
+		text-align: left;
+	}
+	h2 {
+		width: 90%;
+	}
+	h3 {
+		text-align: center;
+		margin: auto;
+		width: 60%;
+	}
+
+	.embandejado {
+		padding-left: 1em;
+	}
+
+	.almacenado {
+		padding-left: 1em;
+	}
+
+	.ovoscopia {
+		padding-left: 1em;
+	}
+
+	.incubadoras {
+		padding-left: 1em;
+	}
+
+	.retiro {
+		padding-left: 1em;
+	}
+
+	.blancas {
+		padding-left: 1em;
+	}
+
+	.color {
+		padding-left: 1em;
+	}
+
+	.imgvac1 {
+		padding-left: 1em;
+	}
+
+	.recepcion {
+		padding-left: 1em;
+	}
+}
+
+@media (min-width: 577px) and (max-width: 1000px) {
+	ul {
+		text-align: left;
+	}
+	h2 {
+		width: 70%;
+	}
+	h3 {
+		text-align: center;
+	}
+
+	.embandejado {
+		padding-left: 5em;
+	}
+
+	.almacenado {
+		padding-left: 5em;
+	}
+
+	.ovoscopia {
+		padding-left: 5em;
+	}
+
+	.incubadoras {
+		padding-left: 5em;
+	}
+
+	.retiro {
+		padding-left: 5em;
+	}
+
+	.blancas {
+		padding-left: 5em;
+	}
+
+	.color {
+		padding-left: 5em;
+	}
+
+	.imgvac1 {
+		padding-left: 5em;
+	}
+
+	.recepcion {
+		padding-left: 5em;
+	}
+}
+
+@media (min-width: 1001px) {
+	h2 {
+		width: 50%;
+	}
 }
